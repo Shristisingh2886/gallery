@@ -1,0 +1,44 @@
+body{
+    background-color: cyan;
+    text-align: center;
+}
+img{
+    Width:350;
+    height: 350;
+    background-color: bisque;
+}
+.line{
+    height: 6px;
+    width:100px;
+    background-color: black;
+    margin: 8px auto;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+.container{
+    text-align: center;
+}
+#myCarousel{
+    background-color: darkviolet;
+}
+#myCarousel img{
+    height:350px;
+    margin-top: 45px;
+}
+.carousel-inner p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color:black;
+    font-size: 30px;
+}
+.sp{
+   grid-column: auto
+}
+#avenger{
+    width:600px;
+    height:400px;
+}
